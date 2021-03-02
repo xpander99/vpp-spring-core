@@ -3,7 +3,7 @@
 
 <beans>
 
-	<bean id="customerService" class="com.virtualpairprogrammers.services.customers.CustomerManagementImpl" />
-	<bean id="diaryService" class="com.virtualpairprogrammers.services.diary.DiaryManagementImpl" />
+	<bean id="customerService" class="com.virtualpairprogrammers.services.customers.CustomerManagementPrototypeImpl" />
+	<bean id="diaryService" class="com.virtualpairprogrammers.services.diary.DiaryManagementPrototypeImpl" />
 
 </beans>
