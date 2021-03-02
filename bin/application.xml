@@ -3,6 +3,7 @@
 
 <beans>
 
-	<!-- add your bean definitions here! -->
+	<bean id="customerService" class="com.virtualpairprogrammers.services.customers.CustomerManagementImpl" />
+	<bean id="diaryService" class="com.virtualpairprogrammers.services.diary.DiaryManagementImpl" />
 
 </beans>
