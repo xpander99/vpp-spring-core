@@ -5,10 +5,10 @@ import java.util.List;
 
 import com.virtualpairprogrammers.domain.Action;
 
-public class DiaryManagementImpl implements DiaryManagementService{
+public class DiaryManagementPrototypeImpl implements DiaryManagementService{
 	private List<Action> actionList;
 	
-	public DiaryManagementImpl() {
+	public DiaryManagementPrototypeImpl() {
 		this.actionList = new ArrayList<Action>();
 	}
 	

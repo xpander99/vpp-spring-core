@@ -6,10 +6,10 @@ import java.util.List;
 import com.virtualpairprogrammers.domain.Call;
 import com.virtualpairprogrammers.domain.Customer;
 
-public class CustomerManagementImpl implements CustomerManagementService{
+public class CustomerManagementPrototypeImpl implements CustomerManagementService{
 	private List<Customer> customerList;
 	
-	public CustomerManagementImpl() {
+	public CustomerManagementPrototypeImpl() {
 		this.customerList = new ArrayList<Customer>();
 	}
 
