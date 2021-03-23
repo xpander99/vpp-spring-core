@@ -5,5 +5,8 @@
 
 	<bean id="customerService" class="com.virtualpairprogrammers.services.customers.CustomerManagementPrototypeImpl" />
 	<bean id="diaryService" class="com.virtualpairprogrammers.services.diary.DiaryManagementPrototypeImpl" />
-
+	<bean id="callHandlingService" class="com.virtualpairprogrammers.services.calls.CallHandlingServiceImpl">
+		<constructor-arg ref="customerService"/>
+		<constructor-arg ref="diaryService"/>
+	</bean>
 </beans>
